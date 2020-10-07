@@ -3,7 +3,8 @@
   "description": "A Scrum planning and estimation game from Four Kitchens",
   "version": "1.7.0",
   "scripts": {
-    "start": "node scrum_cards_server.js"
+    "start": "node scrum_cards_server.js",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "npm": "~1.1.71",
