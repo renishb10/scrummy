@@ -586,7 +586,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Stint Ultra Expanded', cursive;
+  font-family: 'Courier';
   font-weight: 400;
   color: #fc5426;
   text-align: center;
@@ -1058,7 +1058,7 @@ input[type="text"]:focus {
 }
 #clients .vote-wrap .vote {
   color: #d71414;
-  font-family: 'Stint Ultra Expanded', cursive;
+  font-family: 'Courier';
   font-weight: 400;
   text-shadow: #1f1a19 1px 1px 0px;
 }
@@ -1274,7 +1274,7 @@ input[type="text"]:focus {
 #playersHand .card-text {
   font-size: 1em;
   color: #1f1a19;
-  font-family: 'Stint Ultra Expanded', cursive;
+  font-family: 'Courier';
   font-weight: 400;
 }
 @media (max-width: 679px) {
