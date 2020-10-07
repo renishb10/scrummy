@@ -30,7 +30,6 @@ var express = require('express'),
 
 app.use(express.static(__dirname + '/web'));
 server.listen(port);
-console.log("NGC Scrummy started at port", port)
 
 io.sockets.on('connection',function(socket){
 
