@@ -26,11 +26,11 @@ var express = require('express'),
     io      = require('socket.io').listen(server),
     bucket  = [],
     config  = require('./settings.json'),
-    argv    = require('yargs').argv,
-    port    = argv.port || config.port;
+    port    = process.env.PORT || config.port;
 
 app.use(express.static(__dirname + '/web'));
 server.listen(port);
+console.log("NGC Scrummy started at port", port)
 
 io.sockets.on('connection',function(socket){
 
